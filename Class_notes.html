@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type= "text/css" href = "style.css">
+<title>Robert's Notes</title>
+</head>
+<body>
+  <h1>Notes</h1>
+  <div class="lessonnotes">
+    <h2>Lesson one</h2>
+    <div class="bodynotes">
+      <p>
+        <span class="titles"><b>HyperText Markup Language</b></span>
+      </p>
+      <p>
+      text = what you select
+      <br> markup = what it looks like
+      <br> references to other documents
+      </p>
+    </div>
+    <div class="bodynotes">
+      <p>
+        <span class="titles"><b>Components of Markup</b></span>
+      </p>
+      <p>
+        tags are composed of an opening tag, content and a closing tag.
+        <br> <b> &lt;name&gt;   content   &lt; / name &gt; </b> <br> 
+        void tags have no content and therefore don't need a closing tag.
+      </p>
+    </div>
+    <div class="bodynotes">
+      <p>
+        <span class="titles"><b>HTML Attributes</b></span>
+      </p>
+      <p>
+        anchors = <b> &lt; a &gt; </b> = make links
+        <br> <b> &lt; tag attr = "value" &gt; content &lt; / tag &gt; </b> <br>
+      </p>
+    </div>
+    <div class="bodynotes">
+      <p>
+        <span class="titles"><b> Inline vs. Block</b></span>
+      </p>
+      <p>
+        inline tags end a line and block tags create a box around the content.
+      </p>
+          </div>
+     <div class="bodynotes">
+      <p>
+        <span class="titles"><b>Image tag</b></span>
+      </p>
+      <p>
+       <b> &lt; img &gt; </b> = images
+       <b> &lt; img src = "url" alt = "text" &gt;</b>
+       <br>the image tag has no content.<br>
+       the alt text is displayed if the image doesn't load or for the blind.
+      </p>
+    </div>
+    </div>
+    <div class="lessonnotes">
+      <h2>Lesson Two</h2>
+        <div class="bodynotes">
+          <p>
+            <span class="titles"><b>Creating a Structured Document</b></span>
+           </p>
+          <p>
+            <b>HTML</b> files are the structure of web pages, while <b>CSS</b> are what dictates what the pages look like.
+            <br><b>Javascript</b> are the components that change the elements of the <b>HTML</b>. It is important to structure a web page because it becomes much easier to read and to alter the code later.
+            When making your own web page, it's a good idea to look at other people's code in order to better understand how to write your own code.
+          </p>
+        </div>
+        <div class="bodynotes">
+          <p>
+            <span class="titles"><b>Tree-Like Structures</b></span>
+          </p>
+          <p>
+            The <b>HTML DOM</b> model is constructed as a tree of objects. It turns tags and content into elements in the tree.
+            All of the elements in a web page are boxes. When designing a web page from a template, the easiest way to start is by dividing all of the items into boxes. It is important to start with the biggest boxes and then proceed to the smaller ones.
+          </p>
+        </div>
+      </div>
+        <div class ="lessonnotes">
+          <h2>Lesson Three</h2>
+            <div class="bodynotes">
+              <p>
+                <span class="titles"><b>Adding CSS Style and HTML Structure</b></span>
+              </p>
+              <p>
+                Cascading Style sheets define the formatting (style) to be applied to the <b>HTML</b>. These properties can be applied to both individual elements as well as to its descendants. <b>CSS</b> can be called from the <b>HTML</b> page itself or from its own seperate file. It is ideal to write <b>CSS</b> code on a separate file.
+              </p>
+            </div>
+            <div class="bodynotes">
+              <p>
+                <span class="titles"><b>ID's, Classes and Semantic tags</b></span>
+              </p>
+              <p>
+                ID's and classes mark elements in order to change their characteristics in CSS. While classes refer to multiple elements, ID's refer to unique elements. Headings like <em>h1</em> and <em>h2</em> also help avoid to repetition by allowing you to change multiple elemets using <b>CSS</b>. I used <b>CSS</b> on this webpage. Since the white rectangles that surround this text all needed to be the same, I assigned them a class element. Then in the <b>CSS</b> file I only needed to apply the style to the class name instead of changing every rectangle one by one inside the <b>HTML</b> file. 
+              </p>
+            </div>
+            <div class="bodynotes">
+              <p>
+                <span class="titles"><b>The Box Model</b></span>
+              </p>
+              <p>
+                <b>HTML</b> elements are boxes and each box has 4 components; content, padding, border and margin. It is difficult to fit all of these boxes together on a web page. There are two ways for dealing with this issue. The first is to set the sizes in terms of a percentage. The second option is to set the <em>box-sizing</em> attribute to <em>border-box</em> for every element. In order to have two boxes next to each other, it is necessary to add <em>display:flex;</em> to your <b>CSS</b> code.
+              </p>
+            </div>
+      </div>
+</body>
